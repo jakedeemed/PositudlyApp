@@ -12,6 +12,9 @@ class DetailViewController: UIViewController {
 
     @IBOutlet weak var detailDescriptionLabel: UILabel!
 
+    @IBOutlet var detailGratefulOne: UITextField!
+    
+    
     
 
     var detailItem: AnyObject? {
@@ -23,6 +26,9 @@ class DetailViewController: UIViewController {
 
     func configureView() {
         // Update the user interface for the detail item.
+        if objects.count == 0 {
+            return
+        }
         if let detail = self.detailItem {
             if let label = self.detailDescriptionLabel {
                 label.text = detail.description
@@ -33,6 +39,7 @@ class DetailViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
+        detailViewController = self
         self.configureView()
     }
 
@@ -40,7 +47,18 @@ class DetailViewController: UIViewController {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
     }
+    
+    override func viewWillDisappear(animated: Bool) {
+        super.viewWillDisappear(animated)
+        //enter detail description info here if you want that to update
+       // detailGratefulOne.setValue(detailGratefulOne.text, forKey: kNotes)
+        saveAndUpdate()
+    }
 
+    func saveAndUpdate(){
+        masterView?.save()
+        masterView?.tableView.reloadData()
+    }
 
 }
 

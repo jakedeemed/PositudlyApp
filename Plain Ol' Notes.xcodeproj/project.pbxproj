@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		413CD7AC1C7EC88E00DAEA10 /* RegisterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 413CD7AB1C7EC88E00DAEA10 /* RegisterViewController.swift */; };
+		413CD7AE1C7ECB4F00DAEA10 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 413CD7AD1C7ECB4F00DAEA10 /* LoginViewController.swift */; };
 		639D8AA21B97724D0035D532 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 639D8AA11B97724D0035D532 /* AppDelegate.swift */; };
 		639D8AA41B97724D0035D532 /* MasterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 639D8AA31B97724D0035D532 /* MasterViewController.swift */; };
 		639D8AA61B97724D0035D532 /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 639D8AA51B97724D0035D532 /* DetailViewController.swift */; };
@@ -35,6 +37,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		413CD7AB1C7EC88E00DAEA10 /* RegisterViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RegisterViewController.swift; sourceTree = "<group>"; };
+		413CD7AD1C7ECB4F00DAEA10 /* LoginViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
 		639D8A9E1B97724D0035D532 /* Plain Ol' Notes.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Plain Ol' Notes.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		639D8AA11B97724D0035D532 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		639D8AA31B97724D0035D532 /* MasterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MasterViewController.swift; sourceTree = "<group>"; };
@@ -106,6 +110,8 @@
 				639D8AAA1B97724D0035D532 /* Assets.xcassets */,
 				639D8AAC1B97724D0035D532 /* LaunchScreen.storyboard */,
 				639D8AAF1B97724D0035D532 /* Info.plist */,
+				413CD7AB1C7EC88E00DAEA10 /* RegisterViewController.swift */,
+				413CD7AD1C7ECB4F00DAEA10 /* LoginViewController.swift */,
 			);
 			path = "Plain Ol' Notes";
 			sourceTree = "<group>";
@@ -261,6 +267,8 @@
 				639D8AA61B97724D0035D532 /* DetailViewController.swift in Sources */,
 				639D8AA41B97724D0035D532 /* MasterViewController.swift in Sources */,
 				639D8AA21B97724D0035D532 /* AppDelegate.swift in Sources */,
+				413CD7AE1C7ECB4F00DAEA10 /* LoginViewController.swift in Sources */,
+				413CD7AC1C7EC88E00DAEA10 /* RegisterViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -485,6 +493,7 @@
 				639D8ACA1B97724D0035D532 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		639D8ACB1B97724D0035D532 /* Build configuration list for PBXNativeTarget "Plain Ol' NotesTests" */ = {
 			isa = XCConfigurationList;
@@ -493,6 +502,7 @@
 				639D8ACD1B97724D0035D532 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		639D8ACE1B97724D0035D532 /* Build configuration list for PBXNativeTarget "Plain Ol' NotesUITests" */ = {
 			isa = XCConfigurationList;
@@ -501,6 +511,7 @@
 				639D8AD01B97724D0035D532 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
