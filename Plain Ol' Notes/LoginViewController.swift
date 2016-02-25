@@ -1,9 +1,8 @@
 //
 //  LoginViewController.swift
-//  Plain Ol' Notes
+//  Positudly
 //
 //  Created by Jake Dotts on 2/25/16.
-//  Copyright © 2016 LDC. All rights reserved.
 //
 
 import UIKit

@@ -1,9 +1,8 @@
 //
 //  AppDelegate.swift
-//  Plain Ol' Notes
+//  Positudly
 //
-//  Created by LDC on 9/2/15.
-//  Copyright © 2015 LDC. All rights reserved.
+//  Created by Jake Dotts on 2/25/16.
 //
 
 import UIKit

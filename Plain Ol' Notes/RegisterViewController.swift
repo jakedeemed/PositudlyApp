@@ -1,9 +1,8 @@
 //
 //  RegisterViewController.swift
-//  Plain Ol' Notes
+//  Positudly
 //
 //  Created by Jake Dotts on 2/25/16.
-//  Copyright © 2016 LDC. All rights reserved.
 //
 
 import UIKit
@@ -63,7 +62,7 @@ class RegisterViewController: UIViewController {
         //NSUserDefaults.standardUserDefaults().setObject(userRepeatPassword, forKey: "userEmail");
         
         //display alert message with confirmation
-        var myAlert = UIAlertController(title: "Alert", message: "Registration is successful, THANK YOU!", preferredStyle: UIAlertControllerStyle.Alert);
+        let myAlert = UIAlertController(title: "Alert", message: "Registration is successful, THANK YOU!", preferredStyle: UIAlertControllerStyle.Alert);
         let okAction = UIAlertAction(title: "Ok", style: UIAlertActionStyle.Default){
             action in
             self.dismissViewControllerAnimated(true, completion: nil);
@@ -78,7 +77,7 @@ class RegisterViewController: UIViewController {
     
     func displayMyAlertMessage(userMessage:String){
         
-        var myAlert = UIAlertController(title: "Alert", message: userMessage, preferredStyle: UIAlertControllerStyle.Alert);
+        let myAlert = UIAlertController(title: "Alert", message: userMessage, preferredStyle: UIAlertControllerStyle.Alert);
         
         let okAction = UIAlertAction(title: "Ok", style: UIAlertActionStyle.Default, handler:nil);
         
@@ -88,6 +87,9 @@ class RegisterViewController: UIViewController {
         
     }
     
+    @IBAction func registerCancelButton(sender: AnyObject) {
+        self.dismissViewControllerAnimated(true, completion: nil);
+    }
 
     /*
     // MARK: - Navigation
