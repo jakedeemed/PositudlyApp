@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="9531" systemVersion="14F27" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="H1p-Uh-vWS">
     <dependencies>
+        <deployment identifier="iOS"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9529"/>
         <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
     </dependencies>
@@ -23,7 +24,7 @@
         <!--Detail-->
         <scene sceneID="yUG-lL-AsK">
             <objects>
-                <viewController title="Detail" id="JEX-9P-axG" customClass="DetailViewController" customModule="Positudly" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController title="Detail" id="JEX-9P-axG" customClass="DetailViewController" customModule="PositudlyFinal" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="98i-Lq-yiX"/>
                         <viewControllerLayoutGuide type="bottom" id="nxb-me-OR7"/>
@@ -260,7 +261,7 @@
         <!--Master-->
         <scene sceneID="smW-Zh-WAh">
             <objects>
-                <tableViewController title="Master" clearsSelectionOnViewWillAppear="NO" id="7bK-jq-Zjz" customClass="MasterViewController" customModule="Positudly" customModuleProvider="target" sceneMemberID="viewController">
+                <tableViewController title="Master" clearsSelectionOnViewWillAppear="NO" id="7bK-jq-Zjz" customClass="MasterViewController" customModule="PositudlyFinal" customModuleProvider="target" sceneMemberID="viewController">
                     <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="44" sectionHeaderHeight="22" sectionFooterHeight="22" id="r7i-6Z-zg0">
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -333,7 +334,7 @@
         <!--Register View Controller-->
         <scene sceneID="cla-20-FRb">
             <objects>
-                <viewController id="6Hv-Yb-fHK" customClass="RegisterViewController" customModule="Positudly" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="6Hv-Yb-fHK" customClass="RegisterViewController" customModule="PositudlyFinal" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="rm8-xB-cFY"/>
                         <viewControllerLayoutGuide type="bottom" id="hiO-6A-aMX"/>
@@ -462,7 +463,7 @@
         <!--Login View Controller-->
         <scene sceneID="n22-d1-CdU">
             <objects>
-                <viewController id="2Io-US-L7u" customClass="LoginViewController" customModule="Positudly" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="2Io-US-L7u" customClass="LoginViewController" customModule="PositudlyFinal" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="ws0-3N-3eX"/>
                         <viewControllerLayoutGuide type="bottom" id="OVL-Mr-X8r"/>
